@@ -1,0 +1,45 @@
+{
+  "name": "@mdx-js/parcel-plugin-mdx",
+  "version": "1.0.0-alpha.9",
+  "description": "Parcel plugin for MDX",
+  "license": "MIT",
+  "keywords": [
+    "mdx",
+    "markdown",
+    "react",
+    "jsx",
+    "remark",
+    "parcel"
+  ],
+  "homepage": "https://mdxjs.com",
+  "repository": "mdx-js/mdx",
+  "bugs": "https://github.com/mdx-js/mdx/issues",
+  "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me)",
+  "contributors": [
+    "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me)",
+    "John Otander <johnotander@gmail.com> (http://johnotander.com)",
+    "Tim Neutkens <tim@zeit.co>",
+    "Matija Marohnić <matija.marohnic@gmail.com>",
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@mdx-js/mdx": "^1.0.0-alpha.9",
+    "parcel-bundler": "^1.4.1"
+  },
+  "peerDependencies": {
+    "@mdx-js/tag": "^0.13.1-1",
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "jest": "^23.3.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
